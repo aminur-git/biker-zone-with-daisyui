@@ -30,8 +30,10 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        'card-p': '#6C6C6C',
                         'bike-primary': '#E76F51',
                         'bike-primary-bg': 'rgba(231, 111, 81, 0.1)',
+                        'name-blue': 'rgb(35, 166, 240)',
                     }
                 }
             }
@@ -153,7 +155,7 @@
         </div>
 
     </header>
-    <main class="md:container md:mx-auto space-y-28">
+    <main class="md:container md:mx-auto space-y-20 lg:space-y-36">
         <!-- Featured Bike -->
         <section class="pt-28">
             <div class="flex flex-col justify-center text-center items-center">
@@ -185,7 +187,8 @@
                         </figure>
                         <div class="card-body">
                             <h2 class="text-3xl font-semibold">Ducati XDIAVEL S-73</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                            <p class="text-card-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                                fermentum amet faucibus sed id nisi lectus at.</p>
                             <div class="card-actions justify-start">
                                 <button class="btn btn-error bg-bike-primary text-white font-normal">Read More</button>
                             </div>
@@ -198,7 +201,8 @@
                         </figure class=" ">
                         <div class="card-body">
                             <h2 class="text-3xl font-semibold">Motorcycles & Scooters</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                            <p class="text-card-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                                fermentum amet faucibus sed id nisi lectus at.</p>
                             <div class="card-actions justify-start">
                                 <button class="btn btn-error bg-bike-primary text-white font-normal">Read More</button>
                             </div>
@@ -211,12 +215,154 @@
                         </figure>
                         <div class="card-body">
                             <h2 class="text-3xl font-semibold">2021 Honda CBR500R</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                            <p class="text-card-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                                fermentum amet faucibus sed id nisi lectus at.</p>
                             <div class="card-actions justify-start">
                                 <button class="btn btn-error bg-bike-primary text-white font-normal">Read More</button>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- happy clients -->
+        <section class=" md:px-16 lg:px-16 px-5">
+            <div class="flex justify-center items-center lg:flex-row flex-col gap-0">
+                <div>
+                    <h1 class="text-center lg:mb-12 lg:pb-0 pb-4 font-semibold text-4xl md:text-5xl lg:text-5xl pr-3 ">
+                        Happy</h1>
+                </div>
+                <div>
+                    <h1 class="text-center mb-12 text-bike-primary font-semibold text-4xl md:text-5xl lg:text-5xl">
+                        Clients Says</h1>
+                </div>
+            </div>
+
+            <!-- container -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <!-- first Review -->
+                <div class="card bg-base-100  0 p-9 border border-[rgb(222, 222, 222)]">
+                    <figure>
+                        <img class="w-36" src="images/others/user-1.png" alt="Shoes" />
+                    </figure>
+                    <div class="justify-center items-center">
+                        <p class="text-card-p text-center pt-6">Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.
+                        </p>
+                        <div class="rating flex justify-center py-4">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                checked="checked" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <div class="text-center ">
+                            <h3 class="text-name-blue text-sm font-semibold pt-4">Regina Miles</h3>
+                            <h3 class="text-black text-sm font-semibold pt-4">Banker</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2nd Review -->
+                <div class="card bg-base-100   p-9 border border-[rgb(222, 222, 222)]">
+                    <figure>
+                        <img class="w-36" src="images/others/user-2.png" alt="Shoes" />
+                    </figure>
+                    <div class="justify-center items-center">
+                        <p class="text-card-p text-center pt-6">Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.
+                        </p>
+                        <div class="rating flex justify-center py-4">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                checked="checked" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <div class="text-center ">
+                            <h3 class="text-name-blue text-sm font-semibold pt-4">Regina Miles</h3>
+                            <h3 class="text-black text-sm font-semibold pt-4">Banker</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- third Review -->
+                <div class="card bg-base-100  p-9 border border-[rgb(222, 222, 222)]">
+                    <figure>
+                        <img class="w-36" src="images/others/user-3.png" alt="Shoes" />
+                    </figure>
+                    <div class="justify-center items-center">
+                        <p class="text-card-p text-center pt-6">Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.
+                        </p>
+                        <div class="rating flex justify-center py-4">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                checked="checked" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <div class="text-center ">
+                            <h3 class="text-name-blue text-sm font-semibold pt-4">Regina Miles</h3>
+                            <h3 class="text-black text-sm font-semibold pt-4">Banker</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FAQ Section -->
+        <section class="md:px-16 lg:px-16 px-5">
+            <h1 class="text-center mb-12 font-semibold py-4 text-4xl md:text-5xl lg:text-5xl">Frequently Asked <span
+                    class="text-bike-primary">Questions</span>
+            </h1>
+            <!-- Container -->
+            <div class="grid grid-cols-2 gap-24 ">
+                <!-- left-div -->
+                <div>
+                    <img class="w-[500px]" src="images/others/faq.png" alt="faq-image">
+                </div>
+                <!-- right-div -->
+                <div class="">
+                    <div class="join join-vertical">
+                        <div class="collapse collapse-arrow join-item border-base-300 border">
+                          <input type="radio" name="my-accordion-4" checked="checked" />
+                          <div class="collapse-title text-xl font-medium">What are the most important things I should
+                            know about riding a bike?</div>
+                          <div class="collapse-content">
+                            <p class="text-card-p">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                          </div>
+                        </div>
+                        <div class="collapse collapse-arrow join-item border-base-300 border">
+                          <input type="radio" name="my-accordion-4" />
+                          <div class="collapse-title text-xl font-medium">How can I tell if my helmet is old and I need a 
+                            new one?</div>
+                          <div class="collapse-content">
+                            <p class="text-card-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis quas distinctio nam laborum suscipit aspernatur libero, at neque consequatur omnis excepturi ipsum voluptates commodi pariatur voluptas dolorem cumque repellendus sed!</p>
+                          </div>
+                        </div>
+                        <div class="collapse collapse-arrow join-item border-base-300 border">
+                          <input type="radio" name="my-accordion-4" />
+                          <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?</div>
+                          <div class="collapse-content">
+                            <p class="text-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam repellendus dignissimos consectetur nisi natus suscipit enim nemo molestias quia facere. Ut dolor sequi assumenda! Fuga illo fugiat veniam culpa libero.</p>
+                          </div>
+                        </div>
+                        <div class="collapse collapse-arrow join-item border-base-300 border">
+                          <input type="radio" name="my-accordion-4" />
+                          <div class="collapse-title text-xl font-medium">What rules should I follow when riding my bike?</div>
+                          <div class="collapse-content">
+                            <p class="text-card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam repellendus dignissimos consectetur nisi natus suscipit enim nemo molestias quia facere. Ut dolor sequi assumenda! Fuga illo fugiat veniam culpa libero.</p>
+                          </div>
+                        </div>
+                      </div>
                 </div>
             </div>
 
